@@ -4,6 +4,7 @@ However, as with other approaches to epistemic uncertainty, training credal pred
 The resulting computational complexity prevents their adoption for complex models such as  foundation models and multi-modal systems.
 To address this problem, we propose an efficient method for credal prediction that is grounded in the notion of relative likelihood and inspired by techniques for the calibration of probabilistic classifiers. For each class label, our method predicts a range of plausible probabilities in the form of an interval. To produce the lower and upper bounds of these intervals, we propose a techniques that we refer to as decalibration.
 Extensive experiments show that our method yields credal sets with strong coverage and efficiency and performs well on out-of-distribution detection tasks. Notably, we demonstrate credal prediction on models such as TabPFN and CLIP–architectures for which the construction of credal sets was previously infeasible.
+
 <div align="center">
   <img src="paper_plots/main_paper/figure_1.png" alt="CreRL" width="600">
 </div>
